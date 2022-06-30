@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+    color:#fff
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:100%;
+    height:100px;
+    justify-content: space-around;
+    margin-top: 0px;
+    background: rgb(255,255,254);
+    background: linear-gradient(173deg, rgba(255,255,254,0.9752275910364145) 21%, rgba(219,210,171,1) 100%);
+    background-size: cover;
+    flex:1;
+    overflow:hidden;
+
+}
+.container img{
+    height: 170px;
+
+}
+.nav_bar{
+    display:flex;
+    font-weight: 600;
+    font-style: italic;
+}
+.nav_bar a{
+    justify-content:space-between;
+    padding: 8px;
+    margin-left: 10px;
+    color: black;
+    box-shadow: none;
+}
+.nav_bar a::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background: #80808080;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.nav_bar a:hover:after{
+    width: 100%;
+}
+.conteudoHeader{
+    display:flex;
+    justify-content:space-between;
+    background-image: url(/Images/pexels-zachary-debottis-2660248.jpg);
+    background-size: cover;
+    overflow-y:hidden;
+    height: 70vh;
+    align-items: center;
+    color:black;
+    width: 100%;
+    height: 500px;
+    padding: 10px, 12px;
+}
+.imageBox{
+    display:flex;
+    height:380px;
+    width:800px;
+    margin: 30px;
+    background: rgb(149,159,151);
+    background: linear-gradient(117deg, rgba(149,159,151,1) 25%, rgba(173,173,173,1) 100%);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.imageBox img{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 380px;
+    
+}
+.conteudoHeader2{
+    display:flexbox;
+    width:500px;
+    height:250px;
+    margin:100px;
+    text-align:justify;
+    justify-content:center;
+}
+.header2{
+    display:flex;
+    font-size: 48px;
+    font-weight:300;
+    font-style: italic;
+    margin: 8px
+}
+.carText{
+    font-size:18px;
+    font-weight: 200;
+    margin-bottom: 8px;
+    width:auto;
+    padding: 10px;
+    height:60px;
+}
+.conteudoHeader2 button {
+    background: rgb(0,219,236);
+    background: linear-gradient(130deg, rgba(0,219,236,0.9724264705882353) 21%, rgba(0,138,233,1) 100%);
+    color:#fff;
+    border:1px solid black;
+    border-radius: 20%;
+    width: 70px;
+    height: 30px;
+    margin:8px;
+    font-weight: 900;
+}
+
+.carsExamples{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    justify-content:space-around;
+    background: rgb(255,255,254);
+    background: linear-gradient(173deg, rgba(255,255,254,0.9752275910364145) 21%, rgba(219,210,171,1) 100%);
+    width:100%;
+    height:500px;
+    align-items: center;
+}
+.cars{
+    display:inline;
+    align-items:center;
+    flex-direction: row;
+    width:400px;
+    height:300px;
+    justify-content: space-around;
+    margin:10px;
+    padding:20px
+}
+.cars img{
+    width:90%;
+    height: 150px;
+}
+.text{
+    display:inline-flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+.text p{
+    display:inline-flex;
+    font-size: 18px;
+    font-weight:300;
+    overflow-x: hidden;
+}
+.quotes{
+    display:flex;
+    width:100%;
+    height:500px;
+    overflow-x:hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(93,93,93);
+    background: linear-gradient(130deg, rgba(93,93,93,1) 21%, rgba(251,251,251,0.4) 100%);
+}
+.Quote{
+    display:flex;
+    align-items: center;
+    font-size: 40px;
+}
+.quoteOwner{
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+.bait{
+    display:flex;
+    background: rgb(255,255,254);
+    background: linear-gradient(173deg, rgba(255,255,254,0.9752275910364145) 21%, rgba(219,210,171,1) 100%);
+    height:500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    display:inline-block;
+    height:80px;
+    background: rgb(227,182,131);
+    background: linear-gradient(130deg, rgba(227,182,131,0.9724264705882353) 21%, rgba(238,109,133,1) 100%);
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    text-align:left;
+
+}
+.action h2{
+    font-size:28px;
+    margin-left: 50px;
+}
+.action p{
+    font-size:16px;
+    margin-left:50px;
+}
+.action button{
+    background: rgb(0,219,236);
+    background: linear-gradient(130deg, rgba(0,219,236,0.9724264705882353) 21%, rgba(0,138,233,1) 100%);
+    color:#fff;
+    border:1px solid black;
+    border-radius: 20%;
+    width: 70px;
+    height: 30px;
+    margin:8px;
+    font-weight: 900;
+    margin-left: 50%;
+    position:relative;
+    bottom:20px;
+    right:20px;
+}
+footer{
+    display:flex;
+    background: linear-gradient(173deg, rgba(255,255,254,0.9752275910364145) 21%, rgba(219,210,171,1) 100%);
+    height: 60px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
